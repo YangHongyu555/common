@@ -1,0 +1,8 @@
+//启动turtlesim
+ros2 run turtlesim turtlesim_node
+/*此时命令行回复为[INFO] [1742474038.280607645] [turtlesim]: Starting turtlesim with node name /turtlesim
+[INFO] [1742474038.284217420] [turtlesim]: Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
+*/
+//再打开一个新终端来对乌龟进行控制
+ros2 run turtlesim turtle_teleop_key
+//此时用箭头操纵乌龟的行动
